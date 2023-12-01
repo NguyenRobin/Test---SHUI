@@ -1,0 +1,9 @@
+.Button {
+  background-color: var(--primary-btn-background-color);
+  min-width: 7rem;
+  min-height: 7rem;
+  border: none;
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}

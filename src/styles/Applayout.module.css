@@ -1,0 +1,13 @@
+.AppLayout {
+  width: 36rem;
+  height: 100vh;
+  background-color: var(--primary-background);
+  & main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    color: #fff;
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,17 @@
+.MessageBoard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  & ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    height: 70vh;
+    overflow: scroll;
+  }
+
+  & button {
+    align-self: flex-end;
+  }
+}

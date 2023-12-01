@@ -1,0 +1,19 @@
+.Logo {
+  background-color: var(--primary-logo-background-color);
+  width: 4.2rem;
+  min-height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 3rem;
+  /* position: absolute; */
+  z-index: 10000;
+
+  & span {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--primary-logo-text-color);
+  }
+}
