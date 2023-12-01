@@ -2,6 +2,11 @@
   width: 36rem;
   height: 100vh;
   background-color: var(--primary-background);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem 1fr;
+  gap: 4rem;
   & main {
     display: flex;
     flex-direction: column;
