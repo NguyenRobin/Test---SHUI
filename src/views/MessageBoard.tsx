@@ -15,7 +15,7 @@ function MessageBoard() {
 
   return (
     <div className={styles.MessageBoard}>
-      <ul>
+      <ul data-test-id="messages-array">
         {messages.map((data) => (
           <Message
             key={data.message}

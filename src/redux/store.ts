@@ -22,18 +22,13 @@ const initialState: GlobalState = {
       date: 'måndag 3 Nov, 09:23',
       message:
         'Saker händer här och där. Elakingar på spårvagnarna vid Brunnsparken. Se till att vara på plats den tiden, var försiktiga.',
-      user: 'jagarrobin',
+      user: 'robin',
     },
     {
       date: 'måndag 3 Nov, 12:21',
       message:
         'ICA Trumpenten har stängt, jag repeterar. ICA Trumpenten har spelat sitt susta tut! Var försiktiga där ute, detta håller på att balla ur!',
-      user: 'jagarrobin',
-    },
-    {
-      date: '2012-232-2',
-      message: 'bla testtestest bla',
-      user: 'jagArLobin',
+      user: 'robin',
     },
   ],
 };
